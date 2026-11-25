@@ -1,0 +1,49 @@
+{
+  "file": "gta-6-shootout-breaks-out_9x16.mp4",
+  "source_video": "synthetic_test_video",
+  "category": "Shootout",
+  "score": 55,
+  "score_note": "Heuristic estimate of entertainment/engagement potential from audio, motion, speech and optional vision evidence. Not a prediction of views or audience behaviour.",
+  "factors": {
+    "entertainment": 0.6084137565949385,
+    "unexpectedness": 0.6695446507136027,
+    "action": 0.5333036750555039,
+    "reaction": 0.0,
+    "story": 0.8645714447233411,
+    "engagement": 0.505211541056633
+  },
+  "points": {
+    "entertainment": 15.2,
+    "unexpectedness": 13.4,
+    "action": 8.0,
+    "reaction": 0.0,
+    "story": 13.0,
+    "engagement": 5.1
+  },
+  "start_s": 7.4,
+  "end_s": 27.4,
+  "duration_s": 20.0,
+  "title_options": [
+    "GTA 6 shootout breaks out",
+    "GTA 6 gunfight, caught on gameplay",
+    "GTA 6: bullets start flying"
+  ],
+  "chosen_title": "GTA 6 shootout breaks out",
+  "description": "GTA 6 shootout breaks out. Shootout moment from a long GTA 6 gameplay video. #GTA6 #GTAVI #Shorts #gaming #gameplay",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#Shorts",
+    "#gaming",
+    "#gameplay",
+    "#shootout",
+    "#crash",
+    "#unexpected"
+  ],
+  "hook": "It escalates fast",
+  "why_selected": "Shootout around 0:23: rapid sharp audio impulses (gunfire-like). Based on audio and motion cues only (no vision model ran).",
+  "evidence": [
+    "rapid sharp audio impulses (gunfire-like)"
+  ],
+  "framing": "blur_fit"
+}

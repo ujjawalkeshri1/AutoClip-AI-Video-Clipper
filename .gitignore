@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+uv.lock
+
+# Node / frontend dependencies and temporary build files
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/tsconfig.tsbuildinfo
+*.local
+
+# IMPORTANT: Keep backend/autoclip/static/ tracked.
+# The compiled web UI is included so Windows users do not need Node.js.
+
+# Local app data, user media, exports and databases
+.autoclip/
+media/
+work/
+exports/
+outputs/
+temp/
+cache/
+logs/
+install.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Test-generated media / large local fixtures
+tests/fixtures/media/
+tests/fixtures/**/*.mp4
+tests/fixtures/**/*.mkv
+tests/fixtures/**/*.webm
+tests/fixtures/**/*.wav
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets — never commit real credentials
+.env
+.env.*
+!.env.example

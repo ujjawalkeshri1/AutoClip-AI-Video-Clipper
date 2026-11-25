@@ -1,0 +1,51 @@
+# AutoClip: default gameplay clip-generation configuration.
+#
+# Values here are the *defaults*. Anything you change in the app's Settings page
+# is saved to ~/.autoclip/config.json and overrides this file. API keys never go
+# here: they live in your OS keyring (see README).
+#
+# Local processing is the default; no paid API is needed for the basic workflow.
+
+analysis_mode: gameplay        # gameplay = audio + motion + speech.  speech = transcript only.
+
+whisper:
+  model: base                  # tiny | base | small | medium | large-v3. base suits 16 GB laptops.
+  compute_type: auto           # auto picks int8 on CPU.
+  language: ""                 # empty = auto-detect
+
+gameplay:
+  preset: low_resource         # low_resource (Low) | medium | quality (High). Pick one in Settings to apply its values.
+  sample_fps: 1.0              # frames/s analysed for motion and colour. 1 = low resource, 4 = quality.
+  transcribe_scope: candidates # candidates = transcribe only around detected moments (fast). full = whole video.
+  max_candidates: 12
+  same_event_gap_s: 15         # peaks closer than this are one event
+  min_score: 25                # hide candidates scoring below this
+  framing: auto                # auto | blur_fit | motion_crop | center
+  hook_text: false             # burn a short opening line into clips
+  llm_refine: false            # optional: ask the active AI provider to refine titles
+  weights:                     # relative weights; they do not need to sum to 100
+    entertainment: 25
+    unexpectedness: 20
+    action: 15
+    reaction: 15
+    story: 15
+    engagement: 10
+  vision:
+    enabled: false             # optional local vision model via Ollama, keyframes of the top moments only
+    model: "qwen2.5vl:3b"      # small enough for 16 GB. Run: ollama pull qwen2.5vl:3b
+    base_url: "http://localhost:11434"
+    max_candidates: 6
+    keyframes: 3
+
+clips:
+  min_duration_s: 20
+  max_duration_s: 90
+  max_clips: 10
+
+export:
+  ratio: "9:16"                # 1080x1920, H.264 + AAC, MP4
+  caption_style: bold_pop      # bold white text, spoken word in yellow, dark outline
+  loudness_lufs: -14
+  crf: 18                      # output quality: 18 high, 21 balanced, 25 small file
+  prefer_hardware_encoder: true   # uses NVENC or Intel Quick Sync only if a real test encode passes; else CPU
+  write_srt: false

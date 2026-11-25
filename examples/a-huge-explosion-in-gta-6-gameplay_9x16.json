@@ -1,0 +1,49 @@
+{
+  "file": "a-huge-explosion-in-gta-6-gameplay_9x16.mp4",
+  "source_video": "synthetic_test_video",
+  "category": "Explosion",
+  "score": 50,
+  "score_note": "Heuristic estimate of entertainment/engagement potential from audio, motion, speech and optional vision evidence. Not a prediction of views or audience behaviour.",
+  "factors": {
+    "entertainment": 0.41156784436281996,
+    "unexpectedness": 0.7923782865806448,
+    "action": 0.5330870598554611,
+    "reaction": 0.0,
+    "story": 0.7781420417668089,
+    "engagement": 0.45674214884638786
+  },
+  "points": {
+    "entertainment": 10.3,
+    "unexpectedness": 15.8,
+    "action": 8.0,
+    "reaction": 0.0,
+    "story": 11.7,
+    "engagement": 4.6
+  },
+  "start_s": 26.5,
+  "end_s": 47.0,
+  "duration_s": 20.5,
+  "title_options": [
+    "A huge explosion in GTA 6 gameplay",
+    "GTA 6 explosion moment, watch the whole thing",
+    "GTA 6: the explosion and its aftermath"
+  ],
+  "chosen_title": "A huge explosion in GTA 6 gameplay",
+  "description": "A huge explosion in GTA 6 gameplay. Explosion moment from a long GTA 6 gameplay video. #GTA6 #GTAVI #Shorts #gaming #gameplay",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#Shorts",
+    "#gaming",
+    "#gameplay",
+    "#explosion",
+    "#unexpected"
+  ],
+  "hook": "Watch what happens next",
+  "why_selected": "Explosion around 0:40: bright flash with fiery colours; low-frequency audio impact. Based on audio and motion cues only (no vision model ran).",
+  "evidence": [
+    "bright flash with fiery colours",
+    "low-frequency audio impact"
+  ],
+  "framing": "blur_fit"
+}

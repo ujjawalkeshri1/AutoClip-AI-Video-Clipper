@@ -1,0 +1,50 @@
+{
+  "file": "gta-6-police-chase-sirens-and-speed_9x16.mp4",
+  "source_video": "synthetic_test_video",
+  "category": "Police Chase",
+  "score": 72,
+  "score_note": "Heuristic estimate of entertainment/engagement potential from audio, motion, speech and optional vision evidence. Not a prediction of views or audience behaviour.",
+  "factors": {
+    "entertainment": 0.7837916093714098,
+    "unexpectedness": 0.9431908869743346,
+    "action": 0.7420271217823028,
+    "reaction": 0.2450014352798462,
+    "story": 0.879191274891297,
+    "engagement": 0.511750215291977
+  },
+  "points": {
+    "entertainment": 19.6,
+    "unexpectedness": 18.9,
+    "action": 11.1,
+    "reaction": 3.7,
+    "story": 13.2,
+    "engagement": 5.1
+  },
+  "start_s": 58.0,
+  "end_s": 82.5,
+  "duration_s": 24.5,
+  "title_options": [
+    "GTA 6 police chase: sirens and speed",
+    "Can you escape? GTA 6 police chase",
+    "GTA 6: the chase heats up"
+  ],
+  "chosen_title": "GTA 6 police chase: sirens and speed",
+  "description": "GTA 6 police chase: sirens and speed. Police Chase moment from a long GTA 6 gameplay video. #GTA6 #GTAVI #Shorts #gaming #gameplay",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#Shorts",
+    "#gaming",
+    "#gameplay",
+    "#policechase",
+    "#unexpected"
+  ],
+  "hook": "Can they get away?",
+  "why_selected": "Police Chase around 1:11: alternating red/blue lights; siren-like tonal sweep; sustained fast motion. Based on audio and motion cues only (no vision model ran).",
+  "evidence": [
+    "alternating red/blue lights",
+    "siren-like tonal sweep",
+    "sustained fast motion"
+  ],
+  "framing": "blur_fit"
+}

@@ -1,0 +1,49 @@
+{
+  "file": "gta-6-gameplay-a-sudden-crash_9x16.mp4",
+  "source_video": "synthetic_test_video",
+  "category": "Crash",
+  "score": 64,
+  "score_note": "Heuristic estimate of entertainment/engagement potential from audio, motion, speech and optional vision evidence. Not a prediction of views or audience behaviour.",
+  "factors": {
+    "entertainment": 0.5597514433019302,
+    "unexpectedness": 0.6864904606460145,
+    "action": 0.4316530868411064,
+    "reaction": 0.7554594278335571,
+    "story": 0.8333439177936978,
+    "engagement": 0.5965135514736175
+  },
+  "points": {
+    "entertainment": 14.0,
+    "unexpectedness": 13.7,
+    "action": 6.5,
+    "reaction": 11.3,
+    "story": 12.5,
+    "engagement": 6.0
+  },
+  "start_s": 82.5,
+  "end_s": 111.5,
+  "duration_s": 29.0,
+  "title_options": [
+    "GTA 6 gameplay: a sudden crash",
+    "Watch the speed drop to zero in GTA 6",
+    "GTA 6: from full speed to a stop"
+  ],
+  "chosen_title": "GTA 6 gameplay: a sudden crash",
+  "description": "GTA 6 gameplay: a sudden crash. Crash moment from a long GTA 6 gameplay video. #GTA6 #GTAVI #Shorts #gaming #gameplay",
+  "hashtags": [
+    "#GTA6",
+    "#GTAVI",
+    "#Shorts",
+    "#gaming",
+    "#gameplay",
+    "#crash",
+    "#unexpected"
+  ],
+  "hook": "Watch the speed",
+  "why_selected": "Crash around 1:35: fast movement that stops abruptly; no loud impact sound (could also be braking or a pause). Based on audio and motion cues only (no vision model ran).",
+  "evidence": [
+    "fast movement that stops abruptly",
+    "no loud impact sound (could also be braking or a pause)"
+  ],
+  "framing": "blur_fit"
+}
